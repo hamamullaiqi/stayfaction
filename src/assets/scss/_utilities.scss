@@ -513,6 +513,39 @@ $utilities: map-merge(
         )
       )
     ),
+
+    // "color": (
+    //   property: color,
+    //   class: text,
+    //   values: map-merge(
+    //     $colors,
+    //     (
+    //       "white": $white,
+    //       "body": $body-color,
+    //       "muted": $text-muted,
+    //       "black-50": rgba($black, .5),
+    //       "white-50": rgba($white, .5),
+    //       "reset": inherit,
+    //     )
+    //   )
+    // ),
+    
+    // "color": (
+    //   property: color,
+    //   class: text-grey-900,
+    //   values: map-merge(
+    //     $grays,
+    //     (
+    //       "white": $gray-900,
+    //       "body": $body-color,
+    //       "muted": $text-muted,
+    //       "black-50": rgba($black, .5),
+    //       "white-50": rgba($white, .5),
+    //       "reset": inherit,
+    //     )
+    //   )
+    // ),
+    
     // scss-docs-end utils-color
     // scss-docs-start utils-bg-color
     "background-color": (
