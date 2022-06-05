@@ -51,7 +51,7 @@
 @import "utilities/api";
 // scss-docs-end import-stack
 
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 body {
   font-size: 16px;
@@ -62,7 +62,7 @@ body {
   font-size: 26px;
   color: $primary;
   font-family: "Poppins", sans-serif;
-  font-weight: 700;
+  font-weight: 600;
   text-decoration: none;
   &:hover{
     color: $primary;
